@@ -36,61 +36,61 @@ const competencies = {
 const artifacts = [
   {
     title: "Resume & Cover Letter",
-    path: "artifacts/resume-cover-letter/",
+    path: "Professional Materials",
     href: "artifacts/resume-cover-letter/index.html",
-    status: "Ready for upload",
+    status: "Summary available",
     description:
-      "A professional introduction to your experience, strengths, and the kind of engineering work you want to pursue.",
+      "Professional application materials supporting Derek Martin's transition into aerospace and mechanical engineering roles.",
     competencies: ["careerSelfDevelopment", "professionalism"],
-    linkLabel: "Open placeholder page",
+    linkLabel: "View artifact summary",
   },
   {
     title: "Design Proposal",
-    path: "artifacts/design-proposal/",
+    path: "Research & Planning",
     href: "artifacts/design-proposal/index.html",
-    status: "Ready for upload",
+    status: "Summary available",
     description:
-      "A clearly framed proposal that shows how you research, scope, and communicate a technical solution.",
+      "Proposal work showing how Derek frames design problems, researches requirements, and communicates technical direction.",
     competencies: ["criticalThinking", "communication"],
-    linkLabel: "Open placeholder page",
+    linkLabel: "View artifact summary",
   },
   {
     title: "Self-Learning Assignment",
-    path: "artifacts/self-learning-assignment/",
+    path: "Independent Learning",
     href: "artifacts/self-learning-assignment/index.html",
-    status: "Ready for upload",
+    status: "Summary available",
     description:
-      "Evidence that you can independently learn a technology, apply it, and explain how you approached the work.",
+      "Independent technical work that highlights curiosity, applied learning, and Derek's ongoing growth with engineering tools and methods.",
     competencies: ["technology", "criticalThinking"],
-    linkLabel: "Open placeholder page",
+    linkLabel: "View artifact summary",
   },
   {
     title: "Final Team Report",
-    path: "artifacts/final-team-report/",
+    path: "Team Collaboration",
     href: "artifacts/final-team-report/index.html",
-    status: "Ready for upload",
+    status: "Summary available",
     description:
-      "A collaborative project summary that highlights technical communication, teamwork, and final outcomes.",
+      "A team deliverable that demonstrates collaborative execution, technical communication, and contribution to shared engineering outcomes.",
     competencies: ["teamwork", "communication"],
-    linkLabel: "Open placeholder page",
+    linkLabel: "View artifact summary",
   },
   {
     title: "Team Charter",
-    path: "artifacts/team-charter/",
+    path: "Leadership & Process",
     href: "artifacts/team-charter/index.html",
-    status: "Ready for upload",
+    status: "Summary available",
     description:
-      "An agreement on roles, expectations, and team norms that demonstrates leadership and professional standards.",
+      "A record of how Derek approached roles, expectations, and team standards with an emphasis on leadership and professionalism.",
     competencies: ["leadership", "professionalism", "careerSelfDevelopment", "equityInclusion"],
-    linkLabel: "Open placeholder page",
+    linkLabel: "View artifact summary",
   },
   {
     title: "Reflection Essay",
-    path: "artifacts/reflection-essay/",
+    path: "Reflection & Goals",
     href: "artifacts/reflection-essay/index.html",
-    status: "Ready for upload",
+    status: "Summary available",
     description:
-      "A reflective piece connecting your coursework and team experience to competencies, growth, and future goals.",
+      "A reflective summary connecting Derek Martin's experiences, NACE competencies, and future engineering goals.",
     competencies: [
       "communication",
       "criticalThinking",
@@ -101,7 +101,7 @@ const artifacts = [
       "equityInclusion",
       "technology",
     ],
-    linkLabel: "Open placeholder page",
+    linkLabel: "View artifact summary",
   },
 ];
 

@@ -1,13 +1,13 @@
-# Engineering ePortfolio
+# Derek Martin Engineering Portfolio
 
-A sleek, static ePortfolio site designed to work well on GitHub Pages.
+A static engineering portfolio site for Derek Martin, built to work well on GitHub Pages.
 
 ## What is included
 
-- A polished homepage in `index.html`
+- A personalized homepage in `index.html`
 - Site styling in `styles.css`
 - Data-driven artifact and competency rendering in `script.js`
-- Organized placeholder folders in `artifacts/`
+- Organized artifact folders in `artifacts/`
 
 ## Current artifact structure
 
@@ -18,12 +18,20 @@ A sleek, static ePortfolio site designed to work well on GitHub Pages.
 - `artifacts/team-charter/`
 - `artifacts/reflection-essay/`
 
-Each folder includes an `index.html` placeholder page. No actual assignment documents are included.
+Each folder includes an `index.html` summary page. Final documents can be linked into each section as they are uploaded.
+
+## Local preview
+
+Because this is a static site, no install or build step is required.
+
+1. Open `index.html` directly in a browser.
+2. Edit `index.html`, `styles.css`, or `script.js` as needed.
+3. Refresh the browser to see changes.
 
 ## How to add your real files
 
 1. Put the real PDF or document into the matching folder under `artifacts/`.
-2. Use a descriptive filename such as `[your-name]-resume.pdf` or `capstone-design-proposal-final.pdf`.
+2. Use a descriptive filename such as `derek-martin-resume.pdf` or `capstone-design-proposal-final.pdf`.
 3. If you want a homepage card to open the uploaded file directly, update that card's `href` value in `script.js`.
 
 ## GitHub Pages
