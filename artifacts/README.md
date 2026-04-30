@@ -13,10 +13,10 @@ Recommended naming style:
 
 - `derek-martin-resume.pdf`
 - `derek-martin-cover-letter.pdf`
-- `capstone-design-proposal-final.pdf`
-- `self-learning-assignment.pdf`
+- `derek-martin-design-proposal.pdf`
+- `derek-martin-self-learning-assignment.pdf`
 - `final-team-report.pdf`
-- `team-charter-final.pdf`
+- `derek-martin-team-charter-clean.pdf`
 - `reflection-essay.pdf`
 
 This repo does not include the final document files yet. Add real portfolio artifacts to the matching folders as they are ready.
