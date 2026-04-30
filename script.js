@@ -38,9 +38,9 @@ const artifacts = [
     title: "Resume & Cover Letter",
     path: "Professional Materials",
     href: "artifacts/resume-cover-letter/index.html",
-    status: "Summary available",
+    status: "Resume linked",
     description:
-      "Professional application materials supporting Derek Martin's transition into aerospace and mechanical engineering roles.",
+      "Professional application materials supporting Derek Martin's transition into aerospace and mechanical engineering roles. The resume is linked as a live PDF export from Google Docs.",
     competencies: ["careerSelfDevelopment", "professionalism"],
     linkLabel: "View artifact summary",
   },
