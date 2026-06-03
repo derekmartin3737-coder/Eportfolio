@@ -38,7 +38,7 @@ const artifacts = [
     title: "Resume & Cover Letter",
     path: "Professional Materials",
     href: "artifacts/resume-cover-letter/index.html",
-    status: "Resume and cover letter linked",
+    status: "Current resume and cover letter linked",
     description:
       "Professional application materials supporting Derek Martin's transition into mechanical engineering and renewable energy roles, including a live resume link and a targeted Evensol cover letter.",
     competencies: ["careerSelfDevelopment", "professionalism"],
@@ -68,9 +68,9 @@ const artifacts = [
     title: "Final Team Report",
     path: "Team Collaboration",
     href: "artifacts/final-team-report/index.html",
-    status: "Summary available",
+    status: "Final package linked",
     description:
-      "A team deliverable that demonstrates collaborative execution, technical communication, and contribution to shared engineering outcomes.",
+      "Final Team 044 PianoBot submission package, including the drawing package, bill of materials, and design changes for Musical Bot Encore.",
     competencies: ["teamwork", "communication"],
     linkLabel: "View artifact summary",
   },
@@ -88,9 +88,9 @@ const artifacts = [
     title: "Reflection Essay",
     path: "Reflection & Goals",
     href: "artifacts/reflection-essay/index.html",
-    status: "Summary available",
+    status: "Final PDF linked",
     description:
-      "A reflective summary connecting Derek Martin's experiences, NACE competencies, and future engineering goals.",
+      "Final reflection essay connecting Derek Martin's Musical Bot Encore capstone experience, NACE competencies, and future engineering goals.",
     competencies: [
       "communication",
       "criticalThinking",

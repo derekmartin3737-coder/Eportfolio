@@ -9,14 +9,13 @@ This folder is intentionally organized around the assignment deliverables:
 - `team-charter/`
 - `reflection-essay/`
 
-Recommended naming style:
+Final artifact files now included:
 
-- `derek-martin-resume.pdf`
-- `derek-martin-cover-letter.pdf`
-- `derek-martin-design-proposal.pdf`
-- `derek-martin-self-learning-assignment.pdf`
-- `final-team-report.pdf`
-- `derek-martin-team-charter-clean.pdf`
-- `reflection-essay.pdf`
+- Current resume PDF and Evensol cover letter in `resume-cover-letter/`
+- Individual design proposal PDF in `design-proposal/`
+- Individual self-learning assignment PDF in `self-learning-assignment/`
+- Final Team 044 PianoBot submission package in `final-team-report/`
+- Clean team charter PDF in `team-charter/`
+- Final reflection essay PDF and editable draft DOCX in `reflection-essay/`
 
-This repo does not include the final document files yet. Add real portfolio artifacts to the matching folders as they are ready.
+The root ePortfolio folder also includes `derek-martin-final-eportfolio.pdf`, a compiled PDF packet with a checklist, dividers, and all required PDF artifacts for final submission.

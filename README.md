@@ -8,6 +8,7 @@ A static engineering portfolio site for Derek Martin, built to work well on GitH
 - Site styling in `styles.css`
 - Data-driven artifact and competency rendering in `script.js`
 - Organized artifact folders in `artifacts/`
+- A compiled final submission PDF: `derek-martin-final-eportfolio.pdf`
 
 ## Current artifact structure
 
@@ -41,3 +42,7 @@ Because this is a static site, no install or build step is required.
 3. Enable GitHub Pages and deploy from the main branch root folder.
 
 Because the site uses only static files, no build step is required.
+
+## Final submission
+
+For the final ePortfolio assignment, submit `derek-martin-final-eportfolio.pdf` or the published portfolio link. The compiled PDF includes a checklist, artifact dividers, and the required resume, cover letter, design proposal, self-learning assignment, final team report package, team charter, and reflection essay.
