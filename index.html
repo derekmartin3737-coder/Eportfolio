@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Derek Martin | Mechanical Engineering Portfolio</title>
-  <meta name="description" content="Engineering portfolio for Derek Martin, a mechanical engineering student with a physics minor, an aerospace focus, and experience in Python and 3D modeling.">
+  <meta name="description" content="Engineering portfolio for Derek Martin, a mechanical engineering graduate and current engineering graduate student with experience in Fusion 360, Python, instrumentation, and mechanical design.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+<noscript><style>.nav-links { display:flex; } .nav-toggle { display:none; }</style></noscript>
 </head>
 <body class="home-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="page-shell">
     <header class="site-header">
       <nav class="site-nav">
@@ -20,6 +22,7 @@
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav-links" data-nav-toggle>Menu</button>
         <div class="nav-links" id="site-nav-links" data-nav-links>
+          <a href="#projects">Projects</a>
           <a href="#portfolio">Artifacts</a>
           <a href="#competencies">Competencies</a>
           <a href="#education">Education</a>
@@ -28,22 +31,23 @@
       </nav>
     </header>
 
-    <main>
-      <section class="hero section reveal" id="top">
+    <main id="main-content">
+      <section class="hero section" id="top">
         <div class="hero-copy">
           <p class="eyebrow">Mechanical Engineering | Aerospace Focus</p>
           <h1>Derek Martin</h1>
           <p class="hero-text">
-            I am a mechanical engineering student at Oregon State University with a physics
-            minor and a focus in aerospace. My background as a wildland firefighter and EMT
-            helped shape the way I lead, communicate, and stay dependable in demanding
-            environments, while my engineering work has grown through 3D modeling, Python,
-            and Fusion-based design.
+            I earned my B.S. in Mechanical Engineering at Oregon State University in
+            September 2026, with an aerospace focus and a physics minor. I am now pursuing
+            a Master’s in Engineering, expected June 2027. My work combines mechanical
+            design in Autodesk Fusion 360, Python automation and control, and practical
+            instrumentation experience. Wildland firefighting and EMT training shaped
+            my approach to teamwork and dependable execution.
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#portfolio">View Portfolio</a>
-            <a class="button button-primary" href="derek-martin-final-eportfolio.pdf" target="_blank" rel="noopener noreferrer">Download Final ePortfolio PDF</a>
-            <a class="button button-secondary" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=Derekmartin3737%40gmail.com&amp;su=Portfolio%20Contact" target="_blank" rel="noopener noreferrer">Contact Derek</a>
+            <a class="button button-primary" href="artifacts/resume-cover-letter/DerekMartin_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume PDF</a>
+            <a class="button button-secondary" href="mailto:derekmartin3737@gmail.com?subject=Portfolio%20Contact">Contact Derek</a>
           </div>
         </div>
 
@@ -53,11 +57,11 @@
             <div class="metric-grid">
               <article class="metric-card">
                 <span class="metric-value">B.S.</span>
-                <span class="metric-label">June 2026</span>
+                <span class="metric-label">Completed September 2026</span>
               </article>
               <article class="metric-card">
-                <span class="metric-value">M.S.</span>
-                <span class="metric-label">June 2027</span>
+                <span class="metric-value">Master’s</span>
+                <span class="metric-label">Engineering · expected June 2027</span>
               </article>
               <article class="metric-card">
                 <span class="metric-value">3</span>
@@ -72,7 +76,7 @@
         </aside>
       </section>
 
-      <section class="section reveal" id="background">
+      <section class="section" id="background">
         <div class="section-heading">
           <p class="eyebrow">Background</p>
           <h2>Experience that shapes how I work</h2>
@@ -98,21 +102,65 @@
         </div>
       </section>
 
-      <section class="section reveal" id="portfolio">
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Projects &amp; Experience</p>
+          <h2>Mechanical design, controls, and field engineering</h2>
+          <p>Examples from my engineering internship and academic projects.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <p class="eyebrow">Capstone · 2025–2026</p>
+            <h3>Autonomous Piano Player</h3>
+            <p>Developed Python control software for an electromechanical piano-playing system and supported CAD, mechanical integration, and system testing as part of Team 044’s Musical Bot Encore project.</p>
+            <a class="artifact-link" href="artifacts/final-team-report/index.html">View drawings and design changes</a>
+          </article>
+          <article class="feature-card">
+            <p class="eyebrow">Evensol Inc. – EDG-L · June–September 2024</p>
+            <h3>Engineering Internship</h3>
+            <p>Designed and simulated a motor-maintenance hand-crank in Fusion 360. Supported equipment troubleshooting, feasibility studies, Excel data tracking, SCADA transmitter calibration, and instrumentation work for landfill gas collection.</p>
+          </article>
+          <article class="feature-card">
+            <p class="eyebrow">Mechanical Design</p>
+            <h3>Winch Stand &amp; Food Stirrer</h3>
+            <p>Designed and analyzed an aluminum stand to support a winch lifting a 150 lb motor approximately 50 ft. Performed stress analysis and iterative design for a 3D-printed liquid-food stirrer with a four-person team.</p>
+          </article>
+          <article class="feature-card">
+            <p class="eyebrow">Python · Intermediate</p>
+            <h3>Automation &amp; Control</h3>
+            <p>Built a Python assistant integrating calendar, smart-home control, weather, and maps services, and developed a versioned chess bot. My programming experience centers on automation, control, and iterative testing.</p>
+          </article>
+          <article class="feature-card">
+            <p class="eyebrow">USFS · August 2022–September 2023</p>
+            <h3>Wildland Firefighting</h3>
+            <p>Worked with the Sisters Ranger District on fire suppression, equipment operation, navigation, and team coordination in safety-critical conditions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
         <div class="section-heading">
           <p class="eyebrow">Portfolio Artifacts</p>
           <h2>Work organized around engineering growth and career readiness</h2>
           <p>
-            These artifacts follow the Oregon State ePortfolio requirements while presenting
-            the work in an employer-facing format. Each artifact is connected to the NACE
-            competencies it helps demonstrate.
+            The original Oregon State capstone documents show the development of Musical Bot
+            Encore, from proposal to final drawings. These historical project records are
+            paired with my current resume and connected to the NACE competencies they demonstrate.
           </p>
         </div>
         <div class="filter-bar" data-filter-bar></div>
         <div class="artifact-grid" data-artifact-grid></div>
+        <noscript><p>Browse the portfolio documents:</p><ul class="clean-list">
+<li><a href="artifacts/resume-cover-letter/index.html">Current resume and archived cover letter</a></li>
+<li><a href="artifacts/design-proposal/index.html">Design proposal</a></li>
+<li><a href="artifacts/self-learning-assignment/index.html">Self-learning report</a></li>
+<li><a href="artifacts/final-team-report/index.html">Final team report</a></li>
+<li><a href="artifacts/team-charter/index.html">Team charter</a></li>
+<li><a href="artifacts/reflection-essay/index.html">Reflection essay</a></li>
+</ul></noscript>
       </section>
 
-      <section class="section reveal" id="competencies">
+      <section class="section" id="competencies">
         <div class="section-heading">
           <p class="eyebrow">NACE Framework</p>
           <h2>Competencies emphasized throughout this portfolio</h2>
@@ -121,7 +169,7 @@
         <div class="competency-grid" data-competency-grid></div>
       </section>
 
-      <section class="section reveal" id="education">
+      <section class="section" id="education">
         <div class="section-heading">
           <p class="eyebrow">Education</p>
           <h2>Academic path and career direction</h2>
@@ -131,10 +179,10 @@
           <article class="info-card">
             <h3>Academic Focus</h3>
             <ul class="clean-list">
-              <li>Mechanical Engineering, B.S. expected June 2026</li>
+              <li>B.S. Mechanical Engineering — completed September 2026 (September 2022–September 2026)</li>
               <li>Physics minor</li>
               <li>Aerospace focus</li>
-              <li>Mechanical Engineering, M.S. expected June 2027</li>
+              <li>Master’s in Engineering — in progress since September 2026; expected June 2027</li>
             </ul>
           </article>
           <article class="info-card">
@@ -154,27 +202,27 @@
         </div>
       </section>
 
-      <section class="section reveal" id="contact">
+      <section class="section" id="contact">
         <div class="section-heading">
           <p class="eyebrow">Contact</p>
           <h2>Get in touch</h2>
-          <p>This portfolio will continue to grow as more final documents and project materials are added. For now, email is the best way to connect.</p>
+          <p>Based in Bend, Oregon. Contact me about mechanical design, aerospace, engineering analysis, or technical programming opportunities.</p>
         </div>
         <div class="feature-grid">
           <article class="feature-card">
             <span class="step-number">01</span>
             <h3>Email</h3>
-            <p><a href="mailto:Derekmartin3737@gmail.com?subject=Portfolio%20Contact">Derekmartin3737@gmail.com</a></p>
+            <p><a href="mailto:derekmartin3737@gmail.com?subject=Portfolio%20Contact">derekmartin3737@gmail.com</a></p>
           </article>
           <article class="feature-card">
             <span class="step-number">02</span>
-            <h3>Current Interests</h3>
-            <p>Aerospace applications, mechanical engineering applications, and roles that value dependable teamwork and technical growth.</p>
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/derek-martin-37746a26a/" target="_blank" rel="noopener noreferrer">View Derek’s LinkedIn profile</a></p>
           </article>
           <article class="feature-card">
             <span class="step-number">03</span>
             <h3>Portfolio Status</h3>
-            <p>All required final ePortfolio artifacts are linked, and the compiled final ePortfolio PDF is available from the homepage.</p>
+            <p>Updated September 25, 2026. <a href="derek-martin-final-eportfolio.pdf" target="_blank" rel="noopener noreferrer">Original course portfolio (PDF)</a> is retained as a historical record; its resume and education details may be outdated. Use the current resume above.</p>
           </article>
         </div>
       </section>
@@ -182,7 +230,7 @@
 
     <footer class="site-footer">
       <p>Derek Martin | Mechanical Engineering Portfolio</p>
-      <p><span class="js-year"></span> | Oregon State University</p>
+      <p><span class="js-year">2026</span> | Oregon State University</p>
     </footer>
   </div>
   <script src="script.js"></script>

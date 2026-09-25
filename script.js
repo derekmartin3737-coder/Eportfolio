@@ -38,9 +38,9 @@ const artifacts = [
     title: "Resume & Cover Letter",
     path: "Professional Materials",
     href: "artifacts/resume-cover-letter/index.html",
-    status: "Current resume and cover letter linked",
+    status: "Updated September 2026",
     description:
-      "Professional application materials supporting Derek Martin's transition into mechanical engineering and renewable energy roles, including a live resume link and a targeted Evensol cover letter.",
+      "Current resume covering completed undergraduate study, ongoing graduate study, and engineering experience, alongside an archived Evensol cover-letter example.",
     competencies: ["careerSelfDevelopment", "professionalism"],
     linkLabel: "View artifact summary",
   },
@@ -80,7 +80,7 @@ const artifacts = [
     href: "artifacts/team-charter/index.html",
     status: "Clean PDF linked",
     description:
-      "Cleaned team charter for MusicalBot Encore, preserving roles, expectations, communication norms, and accountability without revision markup.",
+      "Team charter for Musical Bot Encore, preserving roles, expectations, communication norms, and accountability without revision markup.",
     competencies: ["leadership", "professionalism", "careerSelfDevelopment", "equityInclusion"],
     linkLabel: "View artifact summary",
   },
@@ -116,9 +116,14 @@ function createFilterButton(key, label) {
   button.type = "button";
   button.className = `filter-button${key === activeFilter ? " is-active" : ""}`;
   button.textContent = label;
+  button.setAttribute("aria-pressed", String(key === activeFilter));
   button.addEventListener("click", () => {
     activeFilter = key;
-    renderFilters();
+    filterBar.querySelectorAll("button").forEach((item) => {
+      const selected = item === button;
+      item.classList.toggle("is-active", selected);
+      item.setAttribute("aria-pressed", String(selected));
+    });
     renderArtifacts();
   });
   return button;
@@ -204,6 +209,7 @@ function renderCompetencies() {
 }
 
 function setupScrollReveal() {
+  if (!("IntersectionObserver" in window)) return;
   const revealElements = document.querySelectorAll(".reveal");
 
   if (!revealElements.length) {

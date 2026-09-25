@@ -747,3 +747,19 @@ h3 {
     transform: none;
   }
 }
+
+/* Readable navigation and documents with keyboard access and narrow screens. */
+section[id] { scroll-margin-top: 7rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.feature-card a:not(.artifact-link), .info-card p a { text-decoration: underline; text-underline-offset: 0.2em; }
+.feature-card, .info-card, .artifact-copy, .artifact-sidebar { min-width: 0; overflow-wrap: anywhere; }
+.skip-link { position: fixed; top: 0.5rem; left: 0.5rem; z-index: 100; padding: 0.8rem 1rem; background: white; transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }
+@media (min-width: 761px) { .metric-value { font-size: 1.35rem; } }
+@media print {
+  body { background: white; color: black; }
+  .site-header, .filter-bar, .skip-link { display: none; }
+  .section { padding: 1rem 0; }
+  .hero { min-height: auto; }
+  .panel-card, .feature-card, .artifact-card, .competency-card, .info-card, .artifact-shell { box-shadow: none; break-inside: avoid; }
+}

@@ -1,48 +1,25 @@
 # Derek Martin Engineering Portfolio
 
-A static engineering portfolio site for Derek Martin, built to work well on GitHub Pages.
+Static GitHub Pages portfolio. Last content review: September 25, 2026.
 
-## What is included
+## Current content
 
-- A personalized homepage in `index.html`
-- Site styling in `styles.css`
-- Data-driven artifact and competency rendering in `script.js`
-- Organized artifact folders in `artifacts/`
-- A compiled final submission PDF: `derek-martin-final-eportfolio.pdf`
+- B.S. Mechanical Engineering completed September 2026, aerospace focus and physics minor.
+- Master’s in Engineering in progress, expected June 2027.
+- Selected engineering, Python, capstone and field experience.
+- Current approved resume: `artifacts/resume-cover-letter/DerekMartin_Resume.pdf`.
+- Original capstone documents and Evensol cover letter are historical artifacts.
+- `derek-martin-final-eportfolio.pdf` is the original course submission, not the current resume.
 
-## Current artifact structure
+## Preview
 
-- `artifacts/resume-cover-letter/`
-- `artifacts/design-proposal/`
-- `artifacts/self-learning-assignment/`
-- `artifacts/final-team-report/`
-- `artifacts/team-charter/`
-- `artifacts/reflection-essay/`
+Run `python -m http.server 8766 --bind 127.0.0.1` and visit http://127.0.0.1:8766/.
+No build or dependency installation is required. GitHub Pages publishes the main branch root.
 
-Each folder includes an `index.html` summary page. Final documents can be linked into each section as they are uploaded.
+## Maintaining the site
 
-## Local preview
+Update the homepage and resume together when education or experience changes. Keep completed dates distinct from expected dates. Preserve original course documents as historical records; do not present their older resume or degree descriptions as current.
 
-Because this is a static site, no install or build step is required.
+The homepage artifact list and competency filters are in `script.js`; summary pages live in `artifacts/`. Keep the no-JavaScript artifact links in `index.html` aligned with those pages. Do not publish private application-profile details, authentication email, date of birth, demographic answers, or application-tracker data.
 
-1. Open `index.html` directly in a browser.
-2. Edit `index.html`, `styles.css`, or `script.js` as needed.
-3. Refresh the browser to see changes.
-
-## How to add your real files
-
-1. Put the real PDF or document into the matching folder under `artifacts/`.
-2. Use a descriptive filename such as `derek-martin-resume.pdf` or `capstone-design-proposal-final.pdf`.
-3. If you want a homepage card to open the uploaded file directly, update that card's `href` value in `script.js`.
-
-## GitHub Pages
-
-1. Push this folder to a GitHub repository.
-2. In GitHub, open the repository settings.
-3. Enable GitHub Pages and deploy from the main branch root folder.
-
-Because the site uses only static files, no build step is required.
-
-## Final submission
-
-For the final ePortfolio assignment, submit `derek-martin-final-eportfolio.pdf` or the published portfolio link. The compiled PDF includes a checklist, artifact dividers, and the required resume, cover letter, design proposal, self-learning assignment, final team report package, team charter, and reflection essay.
+Before publishing, check relative links, keyboard navigation, competency filters, mobile navigation, and the resume download. `node --check script.js` checks JavaScript syntax.
