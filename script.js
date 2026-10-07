@@ -38,7 +38,7 @@ const artifacts = [
     title: "Resume & Cover Letter",
     path: "Professional Materials",
     href: "artifacts/resume-cover-letter/index.html",
-    status: "Updated September 2026",
+    status: "Updated October 2026",
     description:
       "Current resume covering completed undergraduate study, ongoing graduate study, and engineering experience, alongside an archived Evensol cover-letter example.",
     competencies: ["careerSelfDevelopment", "professionalism"],
@@ -65,7 +65,7 @@ const artifacts = [
     linkLabel: "View artifact summary",
   },
   {
-    title: "Final Team Report",
+    title: "Piano Player · Final Design Package",
     path: "Team Collaboration",
     href: "artifacts/final-team-report/index.html",
     status: "Final package linked",
@@ -78,7 +78,7 @@ const artifacts = [
     title: "Team Charter",
     path: "Leadership & Process",
     href: "artifacts/team-charter/index.html",
-    status: "Clean PDF linked",
+    status: "Archived PDF",
     description:
       "Team charter for Musical Bot Encore, preserving roles, expectations, communication norms, and accountability without revision markup.",
     competencies: ["leadership", "professionalism", "careerSelfDevelopment", "equityInclusion"],
@@ -153,6 +153,8 @@ function renderArtifacts() {
       : artifacts.filter((artifact) => artifact.competencies.includes(activeFilter));
 
   artifactGrid.innerHTML = "";
+  const status = document.querySelector("[data-filter-status]");
+  if (status) status.textContent = `${visibleArtifacts.length} documents shown`;
 
   visibleArtifacts.forEach((artifact) => {
     const card = document.createElement("article");
@@ -242,6 +244,14 @@ function setupMobileNav() {
   toggle.addEventListener("click", () => {
     const isOpen = navLinks.classList.toggle("is-open");
     toggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && navLinks.classList.contains("is-open")) {
+      navLinks.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.focus();
+    }
   });
 
   navLinks.querySelectorAll("a").forEach((link) => {
